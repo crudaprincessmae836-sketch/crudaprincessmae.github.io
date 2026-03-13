@@ -1,0 +1,367 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Web Journal</title>
+        <link rel="stylesheet" href="style.css">
+      <style>
+        body{
+            background-color:#ffd5f4 ;
+            text-align:center;
+            
+            
+        }
+        
+        
+        
+        header{
+           background: #ee6aff;
+           color: white;
+           padding: 15px 0;
+           text-align: center; 
+        }
+        
+        /* Navigation Menu */
+        nav {
+            background: #f4d5ff;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        
+        nav{
+            bacbackground-color:#7bff2b;
+            text-align:center ;
+            margin:15px ;
+            font-size:20px;
+        }
+        
+      
+        }
+        
+         nav a {
+            color: blue;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align :center;
+         }
+        . entries {
+            background-color:#ff40e7;
+            margin:10px ;
+            padding:4px ;
+            text-align: center ;
+        }
+        
+        .entry{
+            background:#ffbfff ;
+            margin:20px ;
+            padding:25px ;
+            border-radius:10px ;
+            box-shadow:0px 0px 8px rgba (0,0,0,0.1) ;
+        }
+        
+        entry h2{
+            margin-top:5;
+        }
+         entry small{
+            color:#00ff03;
+        }
+        
+        footer{
+            background:#ffbfea ;
+            color: #902bff ;
+            text-align:center ;
+            padding:10px ;
+        }
+        
+        @media {
+            display:block;
+            margin:8px ;
+            width: 80px;
+            height:30px;
+            
+        }
+        
+        nav a{
+            dispay:block ;
+            margin:8px 0;
+            padding: 40px;
+         
+          
+        }
+        
+        #home{
+           border:3px double;
+           background-color:#ffbfea ; 
+           text-align : center;
+           height:85px ;
+           width:250px ;
+           padding: 5px;
+           font-family:bold; color:#0018ff;
+           font-size:25px ;
+           
+        }
+        
+        #about{
+        border:2px solid;
+           background-color:#d5ffdf; 
+           text-align : center ;
+           height:50px ;
+           width:200;
+           padding:5;
+           margin:10px ;
+           font-family:bold; 
+           color:#2b43ff;
+           font-size:20px;
+            
+        }
+        
+     
+        }
+        
+        #contact{
+           border:3px;
+           background-color:#ffaadf ; 
+           text-align : center ;
+           height:20px ;
+           margin:7px ;
+           font-family:bold; color:#ff809f;
+           font-size:20px ;
+            
+        }
+        
+          /* Page Title Styling */
+         h1 {
+             color: #2c3e50;
+             font-size: 2.5em;
+             text-align: center;
+             margin-top: 20px;
+         }
+         /* Club Description Paragraph Styling */
+         .club-desc {
+             font-family: 'Arial', sans-serif;
+             color: #34495e;
+             font-size: 1.1em;
+             line-height: 1.6;
+             width: 80%;
+             margin: 20px auto;
+             text-align: justify;
+         }
+         /* Announcement Section Border Styling */
+         .announcement-section {
+             width: 80%;
+             margin: 30px auto;
+             border-width: 3px;
+             border-style: solid;
+             border-color: #3498db;
+             padding: 20px;
+             border-radius: 5px;
+         }
+         /* Announcement Heading Styling */
+         .announcement-section h2 {
+             color: #2980b9;
+             margin-top: 0;
+         }
+         /* Announcement Text Styling */
+         .announcement-section p {
+             color: #2c3e50;
+             font-size: 1em;
+         }
+         /* Join Now Button Styling */
+         .join-button {
+             background-color: #2ecc71;
+             color: white;
+             border: none;
+             padding: 12px 24px;
+             border-radius: 25px;
+             font-size: 1.1em;
+             cursor: pointer;
+             display: block;
+             margin: 20px auto;
+         }
+         
+         /* Title Section */
+         .title-section {
+             background-color: #1a365d;
+             color: #ffffff;
+             border: 4px solid #ffd700;
+             margin: 15px auto;
+             padding: 15px;
+             text-align: center;
+             width: 85%;
+         }
+         /* Characters Section */
+         .characters-section {
+             background-color: #aadfff;
+             color: #2c3e50;
+             border: 3px solid #2980b9;
+             margin: 20px 30px;
+             padding: 20px;
+             width: 70%;
+             height: 150px;
+             line-height: 1.8;
+         }
+         /* Setting Section */
+         .setting-section {
+             background-color: #e8f5e9;
+             color: #2e7d32;
+             border: 3px dashed #4caf50;
+             margin: 20px 30px;
+             padding: 10px;
+             width: 75%;
+             text-align: justify;
+         }
+         .conflict-section {
+             background-color: #ffbe95;
+             color: #b71c1c;
+             border: 3px solid #df4a38;
+             margin: 20px auto;
+             padding: 12px;
+             width: 80%;
+             line-height: 1.6;
+         }
+         /* Moral Lesson Section */
+         .moral-section {
+             background-color: #fff3e0;
+             color: #e65100;
+             border: 4px double #ff9800;
+             margin: 25px auto;
+             padding: 18px;
+             width: 78%;
+             height: 350px;
+             text-align: center;
+             font-size: 1.1em;
+             font-style: italic;
+         }
+         h1, h2, p {
+             margin: 5px 0;
+         }
+         
+         body {
+             background-color: #F5F5DC; /* soft peach */
+             font-family: Verdana, sans-serif;
+             color: #333;
+             margin: 40px;
+         }
+         h1 {
+             text-align: center;
+             font-family: Georgia, serif;
+             color: #87CEEB; /* warm orange */
+         }
+      </style>  
+        </head>
+    <body>
+      <header>
+  <h1>My Web Journal</h1>
+  <p>2-3 Quarter-Performance Task and Personal Thoughts</p>
+</header>
+
+  <nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Me</a>
+  <a href="#entries">Entries</a>
+  <a href="#contact">Contact</a>
+  
+</nav>
+    <section id="home">
+  <article class="home"> WELCOME TO MY WEB JOURNAL</article>
+  </section>
+  <section id="about">
+      <article="about">
+          <p>WELCOME TO MY PROFILE</p>
+      </article>
+  </section>
+  
+  
+  <section id="entries">
+  <article class="entry">
+    <h2>My Profile</h2>
+    <small>1st Quarter</small>
+    <p>Today I learned how to build a profile using HTML and CSS.Then, I also learn how to add an image.</p>
+    
+    <h1>Princess Mae Cruda</h1>
+     <p>
+         Hello my beautiful/handsome clients. I'm Princess Mae Cruda a Grade 9 student. And I'm here to present to you my profile. I've like to to watch K-Dramas every day.
+     </p>
+     <h2>My Hobbies & Interests</h2>
+     <ul>
+         <li>Watching K-Dramas</li>
+         <li>Reading Comics</li>
+         <li>Playing with my Brothers</li>
+     </ul>
+  
+  </article>
+  
+  <article class ="entry">
+      <h2>ICT Club Announcement</h2>
+      <small>2nd Quarter</small>
+      
+     <p class="club-desc">The Grade 9 ICT Club is a student-led organization dedicated to helping members explore technology skills like coding, digital design, and hardware basics. We aim to build a community of creative thinkers who use tech to solve real-world problems and collaborate on exciting school projects.</p>
+     <div class="announcement-section">
+         <h2>NEW MEMBER RECRUITMENT!</h2>
+         <p>We are now accepting applications for new members this semester! All Grade 9 students interested in computers, programming, or digital innovation are welcome to join. Orientation will be held on January 20, 2026, at the ICT Laboratory from 2:00 PM to 3:30 PM.</p>
+         <p>Bring your student ID and a short note about why you want to join the club!</p>
+     </div>
+     <button class="join-button">Join Now!</button>  
+      
+  </article>
+  
+  <section id="enries">
+      <article class="entry">
+          <h2>The Lantern in the Storm</h2>
+          <small>3rd Quarter</small>
+          <p></p>
+          
+           <div class="title-section">
+         <h1>The Lantern in the Storm</h1>
+     </div>
+     <div class="characters-section">
+         <h2>Characters</h2>
+         <ul>
+             <li>Eli</li>
+             <li>Villagers</li>
+             <li>Sailors</li>
+         </ul>
+     </div>
+     <div class="setting-section">
+         <h2>Setting</h2>
+         <p>The story takes place in a small coastal village near the sea. The key events unfold during a violent night storm, with the lighthouse at the center of the action.</p>
+     </div>
+     <div class="conflict-section">
+         <h2>Conflict</h2>
+         <p>A fierce storm strikes the village, and the lighthouse lamp suddenly goes out. Panic spreads as ships struggle to navigate through the dark waters, putting the sailors' lives at risk. Eli faces the challenge of climbing the steep hill to the lighthouse amid strong winds and heavy rain to fix the problem.</p>
+     </div>
+     <div class="moral-section">
+         <h2>Moral Lesson</h2>
+         <p>Even small actions or contributions can make a significant difference when others are in need or lost. Bravery isn't about being fearless - it's about acting to help others despite your fears.</p>
+     </div>
+          
+
+      </article>
+      
+      <article class ="entry">
+          <h2>About Me</h2>
+          <small></small>
+          
+          <p>NAME:Princess Mae Cruda </p>
+          <p>AGE:14</p>
+          <p>BIRTH MONTH:May 23,2011</p>
+          <p>BIRTH PLACE: Tagbilaran City</p>
+          <p>A Grade 9 Student</p>
+          <p>Studied at Immaculate Mary Academy</p>
+          
+      </article>
+  </section>
+  
+  
+  <section id="contact">
+      <article="contact">09649343816</article>
+  </section>
+  <footer>
+      <p>@ 2026 My Web Journal</p>
+  </footer>
+ 
+  <body>
+</html>
